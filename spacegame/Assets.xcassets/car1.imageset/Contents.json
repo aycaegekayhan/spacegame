@@ -1,16 +1,15 @@
 {
   "images" : [
     {
+      "filename" : "car1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "torpedo@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "torpedo@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

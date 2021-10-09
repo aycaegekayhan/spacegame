@@ -9,28 +9,22 @@
 /* Begin PBXBuildFile section */
 		D949E955270DE77B0083B016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D949E954270DE77B0083B016 /* AppDelegate.swift */; };
 		D949E957270DE77B0083B016 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D949E956270DE77B0083B016 /* GameScene.sks */; };
-		D949E959270DE77B0083B016 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D949E958270DE77B0083B016 /* Actions.sks */; };
 		D949E95B270DE77B0083B016 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D949E95A270DE77B0083B016 /* GameScene.swift */; };
 		D949E95D270DE77B0083B016 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D949E95C270DE77B0083B016 /* GameViewController.swift */; };
 		D949E960270DE77B0083B016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D949E95E270DE77B0083B016 /* Main.storyboard */; };
 		D949E962270DE77C0083B016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D949E961270DE77C0083B016 /* Assets.xcassets */; };
 		D949E965270DE77C0083B016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D949E963270DE77C0083B016 /* LaunchScreen.storyboard */; };
-		D94E17E7270DEC500019B125 /* SpacegameReloaded_Assets_torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D94E17E5270DEC500019B125 /* SpacegameReloaded_Assets_torpedo.mp3 */; };
-		D94E17E8270DEC500019B125 /* SpacegameReloaded_Assets_explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D94E17E6270DEC500019B125 /* SpacegameReloaded_Assets_explosion.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D949E951270DE77B0083B016 /* spacegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spacegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D949E954270DE77B0083B016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D949E956270DE77B0083B016 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D949E958270DE77B0083B016 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D949E95A270DE77B0083B016 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D949E95C270DE77B0083B016 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D949E95F270DE77B0083B016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D949E961270DE77C0083B016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D949E964270DE77C0083B016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D94E17E5270DEC500019B125 /* SpacegameReloaded_Assets_torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpacegameReloaded_Assets_torpedo.mp3; sourceTree = "<group>"; };
-		D94E17E6270DEC500019B125 /* SpacegameReloaded_Assets_explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpacegameReloaded_Assets_explosion.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +59,9 @@
 			children = (
 				D949E954270DE77B0083B016 /* AppDelegate.swift */,
 				D949E956270DE77B0083B016 /* GameScene.sks */,
-				D949E958270DE77B0083B016 /* Actions.sks */,
 				D949E95A270DE77B0083B016 /* GameScene.swift */,
 				D949E95C270DE77B0083B016 /* GameViewController.swift */,
 				D949E95E270DE77B0083B016 /* Main.storyboard */,
-				D94E17E6270DEC500019B125 /* SpacegameReloaded_Assets_explosion.mp3 */,
-				D94E17E5270DEC500019B125 /* SpacegameReloaded_Assets_torpedo.mp3 */,
 				D949E961270DE77C0083B016 /* Assets.xcassets */,
 				D949E963270DE77C0083B016 /* LaunchScreen.storyboard */,
 			);
@@ -139,9 +130,6 @@
 				D949E957270DE77B0083B016 /* GameScene.sks in Resources */,
 				D949E962270DE77C0083B016 /* Assets.xcassets in Resources */,
 				D949E965270DE77C0083B016 /* LaunchScreen.storyboard in Resources */,
-				D94E17E8270DEC500019B125 /* SpacegameReloaded_Assets_explosion.mp3 in Resources */,
-				D94E17E7270DEC500019B125 /* SpacegameReloaded_Assets_torpedo.mp3 in Resources */,
-				D949E959270DE77B0083B016 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
