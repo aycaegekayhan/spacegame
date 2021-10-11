@@ -57,8 +57,8 @@
 		D949E953270DE77B0083B016 /* spacegame */ = {
 			isa = PBXGroup;
 			children = (
-				D949E954270DE77B0083B016 /* AppDelegate.swift */,
 				D949E956270DE77B0083B016 /* GameScene.sks */,
+				D949E954270DE77B0083B016 /* AppDelegate.swift */,
 				D949E95A270DE77B0083B016 /* GameScene.swift */,
 				D949E95C270DE77B0083B016 /* GameViewController.swift */,
 				D949E95E270DE77B0083B016 /* Main.storyboard */,
