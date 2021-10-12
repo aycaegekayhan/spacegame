@@ -32,7 +32,28 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
+        if canMove{
+            move(leftSide: leftToMoveLeft)
+        }
         showRoadStrip()
+    }
+    
+    //Touches began
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let touchLocation = touch.location(in: self)
+            if touchLocation.x < CentrePoint {
+                if leftCarAtRight {
+                    leftCarAtRight = false
+                    leftToMoveLeft = true
+                } else {
+                    leftCarAtRight = true
+                    leftToMoveLeft = false
+                }
+            }
+            canMove = true
+        }
     }
     
     
@@ -93,6 +114,14 @@ class GameScene: SKScene {
     func move(leftSide: Bool) {
         if leftSide{
             leftCar.position.x -= 20
+            if leftCar.position.x < leftCarMinimumX {
+                leftCar.position.x = leftCarMinimumX
+            } else {
+                leftCar.position.x += 20
+                if leftCar.position.x > leftCarMaximumX {
+                    leftCar.position.x = leftCarMaximumX
+                }
+            }
             
         }
     }
